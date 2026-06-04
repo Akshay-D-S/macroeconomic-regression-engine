@@ -53,26 +53,8 @@ Only statistically valid models are returned.
 
 ## Architecture
 
-```text
-Client
-   │
-   ▼
-FastAPI API
-   │
-   ▼
-Celery Task Queue
-   │
-   ▼
-Regression Engine
-   │
-   ├── Combination Generator
-   ├── OLS Regression
-   ├── Metrics Calculator
-   ├── Validation Engine
-   │
-   ▼
-Validated Models
-```
+<img width="720" height="860" alt="image" src="https://github.com/user-attachments/assets/702fc391-9b77-4932-99e6-783af80dcefc" />
+
 
 ---
 
